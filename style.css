@@ -1,0 +1,188 @@
+:root {
+    --bg-color:rgb(221 64 108);
+}
+body {
+    font-family: 'Nova Square', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: sticky;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.icon  img{
+    width: 50px;
+    height: 50px;
+
+}
+.nav-links a {
+    text-decoration: none;
+    font-size: 1.25em;
+    color: black;
+    padding: 15px;
+}
+.lang {
+    display: flex;
+    align-items: center;
+}
+
+.lang button {
+    border-radius: 20px;
+    color: white;
+    font-family: 'Nova Square', sans-serif;;
+    font-size: 1.25em;
+    background-color: var(--bg-color);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.flag {
+    width: 30px;
+    aspect-ratio: 1;
+    margin-top: 7px;
+    margin: 10px;
+}
+
+.intro {
+    background-color: var(--bg-color);
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding-block: 0.5em;
+}
+
+.btn {
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    font-family: inherit;
+    color: black;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+.x {
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    color: white;
+
+}
+
+.meet {
+    color: white;
+    font-size: 2em;
+}
+
+.video {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-text {
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 50px;
+}
+.mid {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+ .nga {
+    aspect-ratio: 1;
+    width: 500px;
+    
+ }
+
+ .con {
+    font-size: 60px;
+    width: 5em;
+ }
+
+.mem {
+    font-size: 30px;
+    color: var(--bg-color);
+    
+}
+
+.now {
+    font-size: 30px;
+    color: var(--bg-color);
+}
+.hh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gli {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: start; 
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 70px; 
+    background-image: url("https://cdn.muzz.com/website-v4/img/index/pay-for-my-wedding/1536/hero.webp?v=2");
+    height: 600px;
+    background-size: 100% auto; 
+    background-repeat: no-repeat;
+    /* background-position: center center;  */
+    color: white;
+
+}
+.njn {
+    color: white;
+    font-size: 25px;
+}
+.www {
+    width: 1100px;
+    display: flex;
+    gap: 0.7em;
+    justify-content: space-around;
+    align-items: start; 
+    flex-direction: column;
+    margin: 2em;
+}
+
+.nin {
+    border-radius: 20px;
+    color: white;
+    font-family: 'Nova Square', sans-serif;
+    font-size: 0.4em;
+    background-color: var(--bg-color);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
